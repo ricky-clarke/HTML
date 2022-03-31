@@ -3,3 +3,6 @@
 <a href="https://twitter.com/intent/tweet?url=<?php the_permalink(); ?>"target="_blank" aria-label="Share this page on Twitter">
   <img src="<?php echo get_template_directory_uri();?>/images/twitter.png" alt="Share Twitter">
 </a>
+
+// Facebook
+<a href="https://www.facebook.com/sharer/sharer.php?u=link_to_be_shared">Share To Facebook</a>
