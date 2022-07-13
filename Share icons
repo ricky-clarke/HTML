@@ -6,3 +6,10 @@
 
 // Facebook
 <a href="https://www.facebook.com/sharer/sharer.php?u=link_to_be_shared">Share To Facebook</a>
+
+// Linkedin
+<a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?php echo the_permalink();?>&amp;">Share To Facebook</a>
+
+// EMail
+
+<a href="mailto:?subject=Someone has sent you this post to look at from the <?php echo get_bloginfo(); ?> website&amp;body=I thought you might find the following post useful - <?php echo "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>"">Share To Facebook</a>
