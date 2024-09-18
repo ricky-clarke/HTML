@@ -1,0 +1,10 @@
+<img
+  class="video_bg"
+  src="<?php echo $bg_img['sizes']['medium']; ?>"
+  srcset="
+  <?php echo $bg_img['sizes']['medium']; ?> 300w, <!-- 300 = image size in px -->
+  <?php echo $bg_img['sizes']['large']; ?> 1024w, <!-- 1024 = image size in px -->
+  <?php echo $bg_img['url']; ?> 1700w" <!-- 1700 = image size in px -->
+  sizes="(min-width: 960px) 1700px, 100vw <!-- if viewport equal or greater to 960px, show the image with a width of 1700px, else if smaller than 960px, show the image as wide as the viewport -->
+">
+
